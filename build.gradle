@@ -6,8 +6,10 @@ targetCompatibility = 1.8
 version = '1.0'
 
 war {
+	archiveName 'gradle-openshift.war'
+	
 //    from 'src/rootContent' // adds a file-set to the root of the archive
-//    webInf { from 'src/main/webapp/WEB-INF' } // adds a file-set to the WEB-INF dir.
+
 //    classpath fileTree('additionalLibs') // adds a file-set to the WEB-INF/lib dir.
 //    webXml = file('src/main/webapp/web.xml') // copies a file to WEB-INF/web.xml
 }
