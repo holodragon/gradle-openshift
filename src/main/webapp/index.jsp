@@ -5,15 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=BIG5">
-<title>
-	<%
-		out.println(HelloBean.getHello());
-	%>
-</title>
+<title>OpenShift Demo</title>
 </head>
 <body>
 	<%
-		out.println(HelloBean.getHello()+" Body, ver.1");
+		out.println(HelloBean.getHello() + ", JSP BODY, ver.1");
 	%>
 </body>
 </html>
