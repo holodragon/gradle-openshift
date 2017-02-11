@@ -7,13 +7,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=BIG5">
 <title>
 	<%
-		System.out.println(HelloBean.getHello());
+		out.println(HelloBean.getHello());
 	%>
 </title>
 </head>
 <body>
 	<%
-		System.out.println(HelloBean.getHello());
+		out.println(HelloBean.getHello()+" Body, ver.1");
 	%>
 </body>
 </html>
