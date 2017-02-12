@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ImageStream
+metadata:
+  name: openshift-chinalife-eap64
+spec:
+  tags:
+  - annotations:
+      description: FOR DEMO
+      sampleRepo: https://github.com/holodragon/gradle-openshift.git
+      supports: eap:6.4,javaee:6,java:8,xpaas:1.4
+      tags: builder,eap,javaee,java,jboss,xpaas
+      version: "1.0"
+    from:
+      kind: DockerImage
+      name: docker.io/holodragon/openshift-eap64-gradle:1.0
+    name: "1.0"
